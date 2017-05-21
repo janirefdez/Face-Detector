@@ -78,7 +78,7 @@ public class Deteccion {
        
         Rect[] arrayOjos=detectar(imagen);
         
-        System.out.println("OJITOS ENCONTRADOS: "+arrayOjos.length);
+        System.out.println("OJOS ENCONTRADOS: "+arrayOjos.length);
         return arrayOjos;
    }
    
