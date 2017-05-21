@@ -36,10 +36,10 @@ public class Deteccion {
     
     public Deteccion()
     {
-        cara_haarcascades = "C:\\Users\\Janire Fernandez\\Documents\\Programas instalados (JANIRE)\\opencv\\sources\\data\\haarcascades\\haarcascade_frontalface_alt2.xml";
-        ojos_haarcascades="C:\\Users\\Janire Fernandez\\Documents\\Programas instalados (JANIRE)\\opencv\\sources\\data\\haarcascades\\haarcascade_eye.xml";
-        ojoDerecho_haarcascades="C:\\Users\\Janire Fernandez\\Documents\\Programas instalados (JANIRE)\\opencv\\sources\\data\\haarcascades\\haarcascade_righteye_2splits.xml";
-        ojoIzquierdo_haarcascades="C:\\Users\\Janire Fernandez\\Documents\\Programas instalados (JANIRE)\\opencv\\sources\\data\\haarcascades\\haarcascade_lefteye_2splits.xml";
+        cara_haarcascades = "C:\\Users\\opencv\\sources\\data\\haarcascades\\haarcascade_frontalface_alt2.xml";
+        ojos_haarcascades="C:\\Users\\opencv\\sources\\data\\haarcascades\\haarcascade_eye.xml";
+        ojoDerecho_haarcascades="C:\\Users\\opencv\\sources\\data\\haarcascades\\haarcascade_righteye_2splits.xml";
+        ojoIzquierdo_haarcascades="C:\\Users\\opencv\\sources\\data\\haarcascades\\haarcascade_lefteye_2splits.xml";
     }
     
     private void convertirGrisYEcualizar(Mat imagen)
